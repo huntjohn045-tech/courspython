@@ -1,7 +1,7 @@
 #les commentaires
 #couleur="orange"
 
-'''
+'''gjhgjhgjhgjhgjh
 couleur="orange"
 age=15
 print("ta couleur est:",couleur)
