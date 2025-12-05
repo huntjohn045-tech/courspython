@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zufälliges Zitat</title>
+  <link rel="stylesheet" href="projet.css" />
+</head>
+<body>
+  <main class="card" role="main">
+    <h1>Zufälliges Zitat</h1>
+    <div class="quote-box" aria-live="polite">
+      <p id="quote" class="quote">Klicke auf den Button um ein Zitat anzuzeigen.</p>
+    </div>
+
+    <div class="meta">
+      <div class="muted"> Anzahl der verbleibenden Zitate: <span id="remaining">0</span></div>
+      <div class="buttons">
+        <button id="newQuote" class="primary">Neues Zitat</button>
+        <button id="reset">Zurücksetzen</button>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="projet.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+:root{--bg:#0f1724;--card:#0b1220;--accent:#7c3aed;--text:#e6eef8}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter, system-ui, sans-serif}
+body{display:grid;place-items:center;background:linear-gradient(180deg,#071026 0%,var(--bg) 100%);color:var(--text);padding:32px}
+.card{width:min(760px,94%);background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border-radius:12px;padding:28px;box-shadow:0 6px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+h1{margin:0 0 12px 0;font-size:20px}
+.quote-box{min-height:120px;display:flex;align-items:center;justify-content:center;padding:20px;border-radius:8px;background:rgba(255,255,255,0.02);font-size:1.2rem;text-align:center}
+.quote{opacity:0;transform:translateY(6px);transition:opacity .35s ease, transform .35s ease}
+.quote.show{opacity:1;transform:none}
+.meta{margin-top:14px;display:flex;gap:12px;align-items:center;justify-content:space-between}
+.buttons{display:flex;gap:10px}
+button{cursor:pointer;border:0;padding:10px 14px;border-radius:8px;background:var(--card);color:var(--text);font-weight:600;transition:transform .12s ease}
+button:active{transform:translateY(1px)}
+.primary{background:linear-gradient(90deg,var(--accent),#4c1d95)}
+footer{margin-top:12px;text-align:right;font-size:0.85rem;color:rgba(230,238,248,0.6)}
+@media(max-width:520px){.quote{font-size:1rem}}
