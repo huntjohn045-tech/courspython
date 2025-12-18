@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pierre Feuille Ciseaux</title>
+    <link rel="stylesheet" href="./pfs.css">
+</head>
+<body>
+
+    <h1>Pierre – Feuille – Ciseaux</h1>
+
+    <button onclick="jouer('Pierre')">Pierre</button>
+    <button onclick="jouer('Feuille')">Feuille</button>
+    <button onclick="jouer('Ciseaux')">Ciseaux</button>
+
+    <div id="resultat"></div>
+    <div id="score">Victoires : 0 | Défaites : 0 | Nuls : 0</div>
+
+    <button onclick="reinitialiser()">Réinitialiser le score</button>
+
+    <script src="./pfs.js"></script>
+</body>
+</html>
